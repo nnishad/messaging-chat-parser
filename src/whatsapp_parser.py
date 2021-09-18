@@ -101,7 +101,7 @@ def main(argv):
     parser.add_argument('--user_name', type=str, required=True,
                         help="The whatsapp user name of User. It could be read on the WhatsApp raws data.")
     #parser.add_argument('--chats_path', type=str, default="./data/chat_raw/whatsapp/")
-    parser.add_argument('--chats_path', type=str, default="/content/gdrive/MyDrive/collab/data/chat_raw/whatsapp/")
+    parser.add_argument('--chats_path', type=str, default="../content/gdrive/MyDrive/collab/data/chat_raw/whatsapp/")
     parser.add_argument('--output_path', type=str, default="./data/chat_parsed/")
     parser.add_argument('--session_token', type=str,
                         help="Add a 'session_token' after 'delta_h_threshold' hours"
